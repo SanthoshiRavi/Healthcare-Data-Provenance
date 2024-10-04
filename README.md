@@ -23,6 +23,27 @@ The system consists of the following components:
 4. The smart contract stores the data record on the blockchain.
 5. The frontend displays the total records and the current Merkle root, allowing users to verify data integrity.
 
+## Environmental Setup
+
+This section provides a step-by-step guide for setting up the development environment needed to run this project. Please ensure all prerequisites are installed before proceeding.
+
+### Prerequisites
+- *Node.js*: Install Node.js (v16.x or higher) from [Node.js official website](https://nodejs.org/).
+- *npm*: Node Package Manager, comes with Node.js installation.
+- *Truffle*: A development environment, testing framework, and asset pipeline for Ethereum.
+- *Ganache*: A personal blockchain for Ethereum development.
+- *MetaMask*: A browser extension for Ethereum interactions.
+- *Git*: Version control system for cloning the project repository.
+
+### 1. Install Node.js and npm
+- Download and install Node.js from the [official website](https://nodejs.org/). This will also install npm (Node Package Manager) which is required for managing dependencies.
+
+### 2. Install Truffle
+- Truffle is used for compiling, deploying, and testing the smart contracts.
+- Open a terminal and run the following command to install Truffle globally:
+  ```bash
+  npm install -g truffle
+
 ## Team Contributions
 This project was a collaborative effort by a team of 5 members. Each member's contributions are outlined below:
 
